@@ -1,0 +1,25 @@
+{
+  "name": "nightwatch-mocha-examples",
+  "version": "0.0.1",
+  "description": "A select of tests unising nightwatch.js",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chromedriver": "^2.25.1",
+    "geckodriver": "^1.2.0",
+    "mocha": "^3.1.2",
+    "nightwatch": "^0.9.9",
+    "phantomjs": "^2.1.7",
+    "selenium-server-standalone-jar": "^3.0.1",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "env": [
+      "mocha"
+    ],
+    "space": true,
+    "rules": {
+      "camelcase": 0
+    }
+  }
+}
